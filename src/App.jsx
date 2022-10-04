@@ -7,6 +7,8 @@ import About from './About';
 import Service from './Service';
 import Contact from './Contact';
 import Navbar from './Navbar';
+import Footer from './Footer';
+
 // import { Route, Router, Routes } from 'react-router-dom'
 import {
   BrowserRouter as Router,
@@ -28,6 +30,7 @@ function App() {
 
 
     </Routes>
+    <Footer/>
     </BrowserRouter>
 
   );
