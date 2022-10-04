@@ -14,9 +14,12 @@
 .navbar-brand {
   font-size: 1.9rem !important;
   /* color: #565387 !important; */
-  color: coral !important;
+  /* color: coral !important; */
 }
 
+.navbar-brand span{
+  color: blue;
+}
 
 
 .navbar a {
