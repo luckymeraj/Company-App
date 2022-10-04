@@ -7,10 +7,10 @@ const Home = () => {
   return (
     <>
     <Common
-     name="Grow your tech skills with"
+     name="Grow your skills with"
      imgsrc={web}
      visit="/service"
-     btname="Get Started"
+     btname="Enroll Now"
      />
   </>
   )

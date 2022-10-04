@@ -6,10 +6,10 @@ const About = () => {
   return (
     <Common
    
-      name="Welcome to About page"
+      name="Welcome to"
       imgsrc={web}
       visit="/contact"
-      btname="Contact Now"
+      btname="Request a Call"
     
     />
 
