@@ -1,5 +1,5 @@
 import React from 'react'
-import web from "./images/setting.png";
+import about from "./images/aboutImg2.png";
 import { NavLink } from "react-router-dom";
 import Common from "./Common";
 const About = () => {
@@ -7,7 +7,7 @@ const About = () => {
     <Common
    
       name="Welcome to"
-      imgsrc={web}
+      imgsrc={about}
       visit="/contact"
       btname="Request a Call"
     
