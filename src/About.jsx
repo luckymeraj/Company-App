@@ -3,6 +3,7 @@ import about from "./images/aboutImg2.png";
 import { NavLink } from "react-router-dom";
 import Common from "./Common";
 const About = () => {
+
   return (
     <Common
    

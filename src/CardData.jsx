@@ -1,29 +1,37 @@
-import web from "./images/setting.png";
+import serv from "./images/servImg.jpg";
+
+
 
 const CardData = [
     {
-        imgsrc: web,
+        imgsrc: serv,
         title: "web development",
+        detail: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum excepturi quam quae aspernatur illum impedit in dolor."
     },
     {
-        imgsrc: web,
+        imgsrc: serv,
         title: "App development",
+        detail: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum excepturi quam quae aspernatur illum impedit in dolor."
     },
     {
-        imgsrc: web,
+        imgsrc: serv,
         title: "Software development",
+        detail: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum excepturi quam quae aspernatur illum impedit in dolor."
     },
     {
-        imgsrc: web,
+        imgsrc: serv,
         title: "Digital Marketing",
+        detail: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum excepturi quam quae aspernatur illum impedit in dolor."
     },
     {
-        imgsrc: web,
+        imgsrc: serv,
         title: "Android development",
+        detail: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum excepturi quam quae aspernatur illum impedit in dolor."
     },
     {
-        imgsrc: web,
+        imgsrc: serv,
         title: "Data Science",
+        detail: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum excepturi quam quae aspernatur illum impedit in dolor."
     },
 
 ]
