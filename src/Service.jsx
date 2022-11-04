@@ -1,10 +1,13 @@
 import React from 'react'
 import CardData from './CardData'
 import Card from './Card'
+
+
 const Service = () => {
   return (
 
 <>
+
       <div className="my-5">
         <h1 className="text-center"> Our Services </h1>
       </div>
