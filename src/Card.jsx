@@ -13,7 +13,7 @@ const Card = (props) => {
             {props.detail}
           </p>
           <NavLink to="" className="btn btn-primary">
-            Check Now
+            100 $/month
           </NavLink>
         </div>
       </div>
