@@ -10,7 +10,7 @@ const Home = () => {
     <Common
      name="Grow your skills with"
      imgsrc={web}
-     visit="/service"
+     visit="/courses"
      btname="Enroll Now"
      />
   </>

@@ -14,10 +14,11 @@ const CardMentors = ({mentorData}) => {
           </div>
         <div className="card-body">
           <h5 className="card-title font-weight-bold">{`${mentorData.name.title} ${mentorData.name.first} ${mentorData.name.last} (${mentorData.dob.age})`}</h5>
-          <p className="card-text">
+          <p className="card-text" style={{fontSize:"13px"}}>
             {`Street: ${mentorData.location.street.number}, ${mentorData.location.street.name}`}<br/>
             {`City: ${mentorData.location.city}, ${mentorData.location.postcode}`}<br/>
-            {`State, Country: ${mentorData.location.state}, ${mentorData.location.country}`}
+            {`State: ${mentorData.location.state}`}<br/>
+            {`Country: ${mentorData.location.country}`}
           </p>
           <p className="card-text" style={{fontSize:"10px",fontStyle:'italic'}}>
             {`Cell: ${mentorData.cell}`}<br/>
