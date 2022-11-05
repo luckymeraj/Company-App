@@ -9,7 +9,7 @@ const Mentors = () => {
         (async () => {
             let data
             try {
-                const res = await fetch('https://randomuser.me/api/?results=999')
+                const res = await fetch('https://randomuser.me/api/?results=200')
                 data = (await res.json()).results
             } catch (error) {
                 console.log(error);
