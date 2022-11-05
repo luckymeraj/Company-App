@@ -128,6 +128,36 @@
   height: 75vh;
 }
 
+/* Card */
+.card{
+  box-shadow: 0 0 24px 4px rgba(0, 0, 0, 0.7) ;
+  height: 400px;
+
+}
+
+.card img{
+  height: 180px;
+}
+
+
+/* Input Box */
+
+
+/* .inputBox{
+
+  margin: 1rem;
+  padding: 1rem;
+  width: 250px;
+  border-radius: 20px;
+} */
+
+/* mentor card */
+
+
+
+
+
+
 /* /// footer///////////////////// */
 
 footer p {

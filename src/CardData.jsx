@@ -23,83 +23,83 @@ const CardData = [
     {
         imgsrc: and,
         title: "Android Development",
-        detail: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum excepturi quam quae aspernatur illum impedit in dolor.",
+       detail:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. ",
         price:"150$  /mo"
     },
     {
         imgsrc: app,
         title: "App Development",
-        detail: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum excepturi quam quae aspernatur illum impedit in dolor.",
+       detail:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. " ,
         price:"100$  /mo"
 
     },
     {
         imgsrc: ai,
         title: "Artificial Learning",
-        detail: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum excepturi quam ",
+       detail:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. " ,
         price:"90$  /mo"
 
     },
     {
         imgsrc: ds,
         title: "Data Science",
-        detail: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum excepturi quam quae aspernatur illum impedit in dolor.",
+       detail:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. " ,
         price:"150$  /mo"
 
     },
     {
         imgsrc: dstuc,
         title: "Data Structure",
-        detail: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum excepturi quam quae aspernatur illum impedit in dolor.",
+       detail:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. " ,
         price:"70$  /mo"
 
     },
     {
         imgsrc: dm,
         title: "Digital arketing",
-        detail: "Lorem ipsum dolor sit amet consectetur ",
+       detail:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. " ,
         price:"40$  /mo"
 
     },
     {
         imgsrc: fs,
         title: "Full Stack Dev",
-        detail: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum excepturi quam quae aspernatur illum impedit in dolor.",
+       detail:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. " ,
         price:"40$  /mo"
 
     },
     {
         imgsrc: ml,
         title: "Machine Learning",
-        detail: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum excepturi quam quae aspernatur illum impedit in dolor.",
+       detail:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. " ,
         price:"40$  /mo"
 
     },
     {
         imgsrc: jd,
         title: "Java Bootcamp",
-        detail: "",
+       detail:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. ",
         price:"40$  /mo"
 
     },
     {
         imgsrc: pd,
         title: "Python Bootcamp",
-        detail: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum excepturi quam quae aspernatur illum impedit in dolor.",
+       detail:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. " ,
         price:"40$  /mo"
 
     }, 
     {
         imgsrc: sd,
         title: "Software Development",
-        detail: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+       detail:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. " ,
         price:"40$  /mo"
 
     }, 
     {
         imgsrc: wd,
         title: "Web Development",
-        detail: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum excepturi quam quae aspernatur illum impedit in dolor.Eum excepturi.",
+       detail:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. ",
         price:"40$  /mo"
 
     },

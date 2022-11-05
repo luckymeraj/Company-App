@@ -6,6 +6,7 @@ import { NavLink } from 'react-router-dom'
 const Home = () => {
   return (
     <>
+    
     <Common
      name="Grow your skills with"
      imgsrc={web}
