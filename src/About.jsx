@@ -2,9 +2,12 @@ import React from 'react'
 import about from "./images/aboutImg2.png";
 import { NavLink } from "react-router-dom";
 import Common from "./Common";
+import Service from './Service';
 const About = () => {
 
   return (
+<>
+
     <Common
    
       name="Welcome to"
@@ -13,6 +16,9 @@ const About = () => {
       btname="Request a Call"
     
     />
+<Service/>
+
+</>
 
     )
 }

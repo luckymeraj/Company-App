@@ -47,6 +47,7 @@ const Contact = () => {
                   value={data.fullname}
                   onChange={InputEvent}
                   placeholder="Enter your name"
+                  required
                 />
               </div>
               <div className="mb-2">
@@ -61,6 +62,7 @@ const Contact = () => {
                   value={data.phone}
                   onChange={InputEvent}
                   placeholder="mobile number"
+                  required
                 />
               </div>
               <div className="mb-2">
@@ -75,6 +77,7 @@ const Contact = () => {
                   value={data.email}
                   onChange={InputEvent}
                   placeholder="name@example.com"
+                  required
                 />
               </div>
 
@@ -89,6 +92,8 @@ const Contact = () => {
                   name="msg"
                   value={data.msg}
                   onChange={InputEvent}
+                  placeholder="Type your message here..."
+                  required
                 ></textarea>
               </div>
 

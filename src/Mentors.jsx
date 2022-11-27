@@ -15,10 +15,10 @@ const Mentors = () => {
                 console.log(error);
                 data = []
             }
-            console.log(data);
+            // console.log(data);
             setFindUsers(data)
             setUsers(data)
-            console.log(users);
+            // console.log(users);
         })()
     }, [])
 

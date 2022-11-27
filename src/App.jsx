@@ -9,30 +9,34 @@ import Mentors from './Mentors';
 import Contact from './Contact';
 import Navbar from './Navbar';
 import Footer from './Footer';
+import Signup from './Signup';
 
 // import { Route, Router, Routes } from 'react-router-dom'
 import {
   BrowserRouter as Router,
-  Route,BrowserRouter,Routes} from "react-router-dom";
+  Route, BrowserRouter, Routes
+} from "react-router-dom";
 
 
 function App() {
   return (
-        
+
     <BrowserRouter>
-    <Navbar/>
-    <Routes>
-      <Route path='/' element={<Home/>} />
-      <Route path='/home' element={<Home/>} />
-      <Route path='/about' element={<About/>} />
-      <Route path='/courses' element={<Service/>} />
-      <Route path='/mentors' element={<Mentors/>} />
-      <Route path='/contact' element={<Contact/>} />
-      <Route path='/*' element={<Home/>} />
+      <Navbar />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/*' element={<Home />} />
+        <Route path='/home' element={<Home />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/courses' element={<Service />} />
+        <Route path='/mentors' element={<Mentors />} />
+        <Route path='/contact' element={<Contact />} />
+        <Route path='/signup' element={<Signup />} />
 
 
-    </Routes>
-    <Footer/>
+
+      </Routes>
+      <Footer />
     </BrowserRouter>
 
   );
