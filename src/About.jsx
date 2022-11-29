@@ -1,5 +1,5 @@
 import React from 'react'
-import about from "./images/aboutImg2.png";
+import about from "./images/setting.png";
 import { NavLink } from "react-router-dom";
 import Common from "./Common";
 import Service from './Service';
