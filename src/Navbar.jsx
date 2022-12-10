@@ -4,11 +4,11 @@ import { NavLink } from "react-router-dom"
 const Navbar = () => {
     return (
         <>
-            <div className="container-fluid nav_bg">
+            <div className="container-fluid sticky-top nav_bg" >
                 <div className="row">
-                    <div className="col-10 mx-auto">
+                    <div className="col-12 mx-auto">
 
-                        <nav className="navbar navbar-expand-lg ">
+                        <nav className="navbar  navbar-expand-lg " style={{padding:'5px 0px'}} >
                             <div className="container-fluid">
                                 <NavLink className="navbar-brand" to="/home">ThisShala<span>.com</span></NavLink>
 
@@ -36,9 +36,12 @@ const Navbar = () => {
                                         <li className="nav-item">
                                             <NavLink className="nav-link" to="/contact">Contact</NavLink>
                                         </li>
-                                        <NavLink to="/signup" className="btn btn-primary">
-                                            Sign Up
-                                        </NavLink>
+                                        {/* <NavLink to="/signup" className="btn btn-primary" style={{fontSize:'1.3rem'}}>Sign in
+                                        <i class="fa-solid fa-right-to-bracket"></i>
+                                        </NavLink> */}
+                                        <li className="nav-item">
+                                            <NavLink className="nav-link" to="/signup"><i class="fa-solid fa-right-to-bracket" style={{marginRight:'10px'}}></i>Sign in</NavLink>
+                                        </li>
 
 
 
